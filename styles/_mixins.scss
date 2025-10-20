@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+@mixin desktop {
+  @media (min-width: $bp-desktop) {
+    @content;
+  }
+}
+
+@mixin largeScreen {
+  @media (min-width: $bp-large-screen) {
+    @content;
+  }
+}
+
+@mixin set-icon($url, $flip: false, $background-color, $size) {
+  @if $flip {
+    transform: scaleX(-1);
+  }
+
+  background: $background-color url($url) no-repeat center / $size;
+}

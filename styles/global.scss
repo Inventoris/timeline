@@ -1,0 +1,39 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-pt-sans;
+  color: $color-black-blue;
+  background-color: $color-bg;
+  height: 100vh;
+}
+
+body {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 768px;
+
+  @include desktop {
+    padding: 0 160px 0 320px;
+    max-width: 1440px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

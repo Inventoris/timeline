@@ -1,2 +1,33 @@
-# historical-dates
-Historical dates with detailed descriptions
+# Исторические промежутки
+
+React-компонент для отображения исторических дат (промежутков) с важными событиями.
+
+Написание компонента:
+
+```react
+<TimelineBlock />
+```
+
+Компонент находится в [/components/TimelineBlock/TimelineBlock.tsx](components/TimelineBlock/TimelineBlock.tsx).
+
+Работает независимо от другой логики страницы, можно добавлять несколько подряд. Принимает от 2 до 6 временных отрезков.
+
+## Стек проекта
+
+Проект реализован на TypeScript, Next.js, SCSS. Для слайдера использован Swiper, для анимаций GSAP.
+
+## Как запустить
+
+Клонировать репозиторий, затем выполнить одну из следующих команд:
+
+```bash
+npm run dev
+# Либо
+yarn dev
+# Либо
+pnpm dev
+# Либо
+bun dev
+```
+
+Результат откроется здесь: [http://localhost:3000](http://localhost:3000).
