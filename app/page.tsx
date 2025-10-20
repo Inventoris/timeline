@@ -5,7 +5,6 @@ export default function Page() {
   return (
     <main>
       <TimelineBlock data={timelineMock} />
-      <TimelineBlock data={timelineMock} />
     </main>
   )
 }

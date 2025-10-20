@@ -30,4 +30,4 @@ pnpm dev
 bun dev
 ```
 
-Результат откроется здесь: [http://localhost:3000](http://localhost:3000).
+Результат откроется здесь: [http://localhost:3000](http://localhost:3000)
