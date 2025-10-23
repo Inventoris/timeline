@@ -8,7 +8,7 @@ React-компонент для отображения исторических 
 <TimelineBlock />
 ```
 
-Компонент находится в [/components/TimelineBlock/TimelineBlock.tsx](components/TimelineBlock/TimelineBlock.tsx).
+Компонент находится в [/components/TimelineBlock/TimelineBlock.tsx](components/TimelineBlock/TimelineBlock.tsx)
 
 Работает независимо от другой логики страницы, можно добавлять несколько подряд. Принимает от 2 до 6 временных отрезков.
 
